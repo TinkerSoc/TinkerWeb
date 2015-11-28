@@ -1,0 +1,25 @@
+---
+categories: []
+date: 2012-02-17T00:00:00Z
+published: true
+status: publish
+tags:
+- minipov
+- openmic
+- workshops
+title: OpenMic,
+type: post
+url: /2012/02/17/openmic/
+---
+
+Hi All,
+
+This Monday will be our OpenMic session and will be held in the Sim Lab in the Jennison building at 6.00pm. If you have anything cool to talk about please let us know.
+
+The week after we will be making miniPOVs, those cool things that you can wave around in the dark to show messages. Depending on our budget we're going to try to get the prices lower than our previous kit, fingers crossed!
+
+Sadly, there has been no news about the hoodies since the last email. Apologies again, we'll try to speed things up.
+
+Cheers,
+
+Matt
