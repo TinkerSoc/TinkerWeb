@@ -1,5 +1,5 @@
-baseurl: http://replace-this-with-your-hugo-site.com/
+baseurl: http://tinkersoc.org/
 disablePathToLower: true
-languageCode: en-us
-title: My New Hugo Site
+languageCode: en-gb
+title: TinkerSoc Website
 ...
