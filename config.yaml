@@ -2,4 +2,6 @@ baseurl: http://tinkersoc.org/
 disablePathToLower: true
 languageCode: en-gb
 title: TinkerSoc Website
+featuredImage: foo.png
+live: false
 ...

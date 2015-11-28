@@ -1,0 +1,16 @@
+---
+layout: blog
+meta-robots: "noodp, noydir, noindex, noarchive, follow"
+---
+
+<section id="home">
+  <div class="posts">
+	{{range $key, $element := .Site.Params.links}}
+	    <article class="row blog-post-index">
+	      <div class="blog-sep">{{ $element.date | .Date.Format }}</div>
+	      <h2 class="blog-heading"><a href="{{ .Site.Url }}{{ $element.url }}">{{ $element.title }}</a></h2>
+	      {{ $element.excerpt }}
+	    </article>
+  	{{ end }}
+  </div>
+</section>
