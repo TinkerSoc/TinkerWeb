@@ -1,0 +1,11 @@
+.ts-committee-member {
+    height: 28em;
+}
+
+#landing {
+    background-color: maroon;
+    margin-top: -21px;
+    padding-top: 21px;
+    display: block;
+    vertical-align: bottom;
+}
