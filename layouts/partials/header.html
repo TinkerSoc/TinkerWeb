@@ -1,20 +1,16 @@
- <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-	  <a class="navbar-brand" href="{{ .Site.BaseURL }}/">{%picture icon logo(2013)-white-transparent-notext.png%}{{ .Site.Title }}</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-          </ul>
-          <div class="navbar-form navbar-right">
-			  <button class="btn btn-success" onclick="location.href='{{.Site.BaseURL}}/joinus.html'">Join Us!</button>
-          </div>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+{{ $isHomePage := eq .Title .Site.Title }}
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+
+    {{ partial "meta.html" . }}
+
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+
+    {{ partial "head_includes.html" . }}
+</head>
+<body>

@@ -1,0 +1,26 @@
+{{ with .item }}
+<div class="col-sm-4 col-md-3">
+    <div class="thumbnail ts-committee-member" id="{{ .urlised }}">
+        <div class="caption">
+            {{ if isset .person "image" }}
+            <img src="{{ .person.image | relURL }}" class="img-responsive" alt="Portrait of {{ .person.name }}">
+            {{ else }}
+            <img src="{{ $.placeholder }}" class="img-responsive" alt="Missing image of {{ .person.name }}">
+            {{ end }}
+            {{ if isset .person "website" }}
+            <h2><a href="{{ .person.website }}" alt="{{ .person.name }}'s Website }}">{{ .person.name }}</a></h2>
+            {{ else }}
+            <h2>{{ .person.name }}</h2>
+            {{ end }}
+            {{ if isset . "incumbent_role" }}
+            <h4>{{ .incumbent_role }}</h4>
+            {{ end }}
+            <p>
+                {{ range .person.roles }}
+                {{ .name }}, {{ .year }}/{{ add .year 1 }}<br>
+                {{ end }}
+            </p>
+        </div>
+    </div>
+</div>
+{{ end }}

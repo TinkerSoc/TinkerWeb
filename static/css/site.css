@@ -1,0 +1,23 @@
+.ts-committee-member {
+    height: 28em;
+}
+
+
+.cover-img {
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 30px;
+}
+
+#landing.cover-img {
+    margin-top: -21px;
+    background-image: url('/media/images/banner/arcade.jpg');
+}
+
+#what.cover-img {
+    background-image: url('/media/images/banner/col.jpg');
+}
+
+body header nav .btn {
+    margin-right: 0px;
+}

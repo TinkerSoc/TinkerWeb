@@ -1,0 +1,49 @@
+{{ $committee := $.Page.Site.Data.committee }}
+{{ $placeholder := $.Page.Site.Params.Committee.Placeholder }}
+{{ $order := $.Page.Site.Params.Committee.Order }}
+{{ $year := $.Page.Site.Params.Committee.Year }}
+{{ with $committee }}
+  {{ range $idx, $person := . }}
+    {{ range $person.roles }}
+      {{ if eq .year $year }}
+        {{ $.Scratch.SetInMap "incumbent" $idx (dict "person" $person "incumbent_role" .name "urlised" $idx) }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section>
+<h2>Incumbent</h2>
+<p>The current TinkerSoc committee members. They're the ones who decide how things should be broken.</p>
+<div class="row">
+    {{ range $idx, $role := $order }}
+    {{ range where ($.Scratch.GetSortedMapValues "incumbent") "incumbent_role" $role }}
+    {{ partial "committee_member.html" (dict "placeholder" $placeholder "item" .) }}
+    {{ end }}
+    {{ end }}
+</div>
+</section>
+
+<section>
+<h2>Founders</h2>
+<p>These people are why TinkerSoc exists. Treat them like gods, but not the Goa'uld.</p>
+<div class="row">
+    {{ range $committee }}
+    {{ if isset . "founder" }}
+    {{ if eq .founder true }}
+      {{ partial "committee_member.html" (dict "placeholder" $placeholder "item" (dict "person" .)) }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>
+</section>
+
+<section>
+<h2>Complete History</h2>
+<p>Let us remember those who have moved onto greener pastures.</p>
+<div class="row">
+{{ range $committee }}
+{{ partial "committee_member.html" (dict "item" (dict "person" .) "placeholder" $placeholder) }}
+{{ end }}
+</div>
+</section>
