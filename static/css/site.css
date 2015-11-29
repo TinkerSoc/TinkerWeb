@@ -9,3 +9,7 @@
     display: block;
     vertical-align: bottom;
 }
+
+body header nav .btn {
+    margin-right: 0px;
+}
