@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "subheader.html" . }}
+
+<div class="col-md-3"></div>
+<div class="col-md-6 col-md-offset-0">
+	<article class="blog-post-index">
+	    <h2 class="blog-heading">{{ .Title }}</h2>
+	    <p class="meta">{{ .Date.Format "1 Jan 2000 "}}</p>
+        {{ .Content }}
+    </article>
+</div>
+{{ partial "footer.html" . }}
