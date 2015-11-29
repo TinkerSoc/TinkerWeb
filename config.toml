@@ -1,0 +1,26 @@
+title = "TinkerSoc"
+baseurl = "http://www.tinkersoc.org/"
+languageCode = "en-gb"
+SectionPagesMenu = "main"
+
+[params]
+Bootswatch = "cosmo"
+Subtitle = "Kent's Maker Society"
+AuthorName = "TinkerSoc Committee"
+GitHubUser = "TinkerSoc"
+
+[params.Committee]
+Order = ["President", "Treasurer", "Secretary", "Radio Officer", "Officer"]
+Placeholder = "/media/committee/placeholder.png"
+Year = 2015
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "#"
+
+[[menu.main]]
+  parent = "about"
+  name = "Committee"
+  identifier = "about/committee"
+  url = "about/committee"
