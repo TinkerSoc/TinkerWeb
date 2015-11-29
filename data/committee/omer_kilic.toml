@@ -1,0 +1,11 @@
+name = "Omer Kilic"
+website = "http://omer.me"
+founder = true
+
+[[roles]]
+name = "President"
+year = 2009
+
+[[roles]]
+name = "President"
+year = 2008

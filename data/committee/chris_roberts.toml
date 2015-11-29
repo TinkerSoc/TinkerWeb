@@ -1,0 +1,10 @@
+name = "Chris Roberts"
+founder = true
+
+[[roles]]
+name = "President"
+year = 2009
+
+[[roles]]
+name = "President"
+year = 2008
