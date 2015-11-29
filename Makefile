@@ -1,7 +1,14 @@
-theme=tinkersoc
+.PHONY:
+	all
+
+all: 
+	hugo
+
+clean:
+	rm -R public
 
 start:
-	hugo server theme=$(theme)
+	hugo server
 
 start-no-watch:
-	hugo server theme=$(theme) --watch=false
+	hugo server --watch=false
