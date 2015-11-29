@@ -1,5 +1,10 @@
 theme=tinkersoc
 
+.PHONY: all
+
+all:
+	hugo
+
 start:
 	hugo server theme=$(theme)
 
