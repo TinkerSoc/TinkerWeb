@@ -2,8 +2,7 @@ title = "TinkerSoc"
 baseurl = "http://www.tinkersoc.org/"
 languageCode = "en-gb"
 SectionPagesMenu = "main"
-permalinks:
-  post: /:year/:month/:title/
+permalinks = "/:year/:month/:title/"
 
 [params]
 Bootswatch = "cosmo"
