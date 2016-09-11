@@ -4,8 +4,9 @@ layout: post
 published: true
 categories: []
 tags: []
+date: 2014-06-14
 ---
-{% picture 2014-06-14-BarCamp-Canterbury/barcamp.png%}
+{{% picture "2014-06-14-BarCamp-Canterbury/barcamp.png" %}}
 TinkerSoc is going to be hosting a learn-to-solder Session at this
 year's [BarCamp Canterbury](http://barcampcanterbury.com/). For those
 who are unfamilar with BarCamp: BarCamp is an **unconference** that is
@@ -16,6 +17,3 @@ There are only a few kits, and they will be sold on a first come,
 first serve basis, at £7 each.
 
 We hope to see you at BarCamp!
-
-
-

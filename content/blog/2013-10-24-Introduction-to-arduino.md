@@ -5,9 +5,10 @@ published: true
 catagories:
   - Arduino
 tags: []
+date: 2013-10-24
 ---
 This week we had an introduction session to the arduino platform.  For those of you unfamiliar with arduinos (have you been living under a rock?!), the arduino platform is a low cost development board and programing environment. It allows you to control hardware like LEDs, motors and servos. They’re really great ways to connect computers to objects in the real world.
-{% picture arduinos.jpg %}
+{{% picture "arduinos.jpg" %}}
 
 We covered some basics and did some cooler things too. The standard Blink sketch, and then moved on to some Morse code. After this we went through serial and controlling servos, then Dan walked groups through the super cool nrf2401+ radio chips!
 
@@ -43,4 +44,3 @@ For those of you wanting a recap the slides are included below.
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-

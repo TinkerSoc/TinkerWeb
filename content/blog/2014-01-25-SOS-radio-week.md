@@ -1,10 +1,11 @@
 ---
-title: SOS radio week. 
+title: SOS radio week.
 layout: post
 published: true
 categories:
   - Radio
 tags: []
+date: 2014-01-25
 ---
 
 The SOS Radio Week is an annual week of fund raising by amateur radio
@@ -15,13 +16,13 @@ members of TinkerSoc joined [Hilderstone Amateur Radio and Electronics
 club](www.g0hrs.org/) at Ramsgate Lifeboat Station to help with the event by
 making contacts, and to practice in preparation for taking their foundation
 license exam at the beginning of February.
-{% picture 2014-01-25-SOS-radio-week/postcard.jpg %}
+{{% picture "2014-01-25-SOS-radio-week/postcard.jpg" %}}
 
 Operating under the special event call sign on GB1RLS on the 40m band and
 transmitting using a hand tuned dipole antenna we talked to over 50 other
 enthusiasts from all across the UK, and beyond.  
 
-{% picture 2014-01-25-SOS-radio-week/contact.jpg %}
+{{% picture "2014-01-25-SOS-radio-week/contact.jpg" %}}
 
 If you are interested in finding out more about amateur radio, or would like to
 join in please send us an email to committee at tinkersoc.org.
