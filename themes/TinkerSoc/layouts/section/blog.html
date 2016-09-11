@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<section>
+  <article>
+    {{ range .Data.Pages }}
+        {{ .Render "blog-index-item"}}
+    {{ end }}
+</article>
+</section>
+
+{{ partial "footer.html" . }}
