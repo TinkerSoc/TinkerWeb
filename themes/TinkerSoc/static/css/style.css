@@ -1,5 +1,18 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+    position: relative;
     margin: 0;
+    min-height: 100%;
 }
 
 nav {
@@ -25,14 +38,73 @@ nav ul li a {
     color: inherit;
     text-decoration: none;
     font-stretch: extra-expanded;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 1em 2em 1em 2em;
 }
 
 nav * img {
     margin: -10px 0 -10px 0;
 }
 
-
 @media(min-width: 1000px) {
+    article,
+    section {
+        max-width: 40em;
+    }
+
+
+    body {
+        padding-bottom: 20rem;
+    }
+
+    footer * h1 {
+        font-family: "Helvetica", sans-serif;
+        font-size: 150%;
+    }
+
+    footer * ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    footer * a,
+    footer * a:active,
+    footer * a:visited {
+        color: white;
+    }
+
+    footer {
+        display: block;
+        background-color: hsla(180,99%,24%,1); /* Slightly darker than the brand colour */
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        width: 100%;
+    }
+
+    footer * .copy {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+
+    footer .content {
+        max-width: 960px;
+        margin: auto;
+        color: white;
+        padding: 0.5em;
+    }
+
+    .col {
+        width: 33%;
+        display: inline-block;
+        margin: 0;
+        float: left;
+    }
+
     nav ul {
         margin: 0 0 0 30px;
         padding: 0;
@@ -40,7 +112,6 @@ nav * img {
     }
 
     nav ul li {
-        padding: 1em 2em 1em 2em;
         display: inline-block;
     }
 
@@ -50,8 +121,7 @@ nav * img {
         background-color: #333;
         min-width: 160px;
         z-index: 1;
-        margin-top: 1em;
-        margin-left: -2em;
+        margin-left: 0em;
     }
 
     .sub li, .sub-menu:hover .sub {
@@ -63,16 +133,28 @@ nav * img {
     }
 }
 
+@media(min-width: 2000px) {
+    article,
+    section {
+        max-width: 80em;
+    }
+}
+
 @media(max-width: 1000px) {
+    footer {
+        display: none;
+        visibility: collapse;
+    }
+
     nav ul {
         margin: 0;
         padding-left: 0;
     }
 
     nav {
-        height: 3em;
+        max-height: 3em;
         overflow: hidden;
-        transition: height 0.3s;
+        transition: max-height 0.3s;
     }
 
     nav ul:first {
@@ -85,14 +167,12 @@ nav * img {
 
     nav ul li {
         display: block;
-        padding: 1em 0 1em 1em;
     }
 
     nav ul div {
         width: 100%;
-        height: 2em;
-        margin: -1em 0 -1em -1em;
-        padding: 1em 0 0 1em;
+        height: 3em;
+        margin: 0 0 -1em 0;
     }
 
     .sub li {
@@ -112,6 +192,14 @@ nav * img {
         background-color: #333;
     }
 
+    .sub-menu ul li {
+        padding-left: 0.5em;
+    }
+
+    .sub-menu ul li a::before {
+        content: "►"
+    }
+
     .hamburger {
         display: block;
         color: #fff;
@@ -121,18 +209,17 @@ nav * img {
     }
 
     .expand {
-        height: 35em;
+        max-height: 40em;
     }
 }
 
-.content,
 article,
 section {
-    max-width: 40em;
     margin: 0 auto;
     line-height: 1.5;
     font-size: 110%;
     padding: 1em;
+    overflow-y: hidden;
 }
 
 .content img,
@@ -140,9 +227,13 @@ article img,
 section img {
     max-width: 100%;
 }
+.content-wide {
+    max-width: 960px;
+}
 
 article h1, article h2, article h3,
 article h4, article h5, article h6 {
+    font-family: "Helvetia", sans-serif;
     margin-bottom: 0.3em;
 }
 
@@ -158,4 +249,41 @@ h1 a:hover {
 
 time {
     display: block;
+}
+
+figure {
+    width: 200px;
+    margin: 10px;
+    border-color: black;
+    clear: both;
+    overflow: auto;
+    display: inline-block;
+    padding: 30px 0 0 0;
+    font-size: 15px;
+}
+
+figure figcaption {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: "Helvetica", sans-serif;
+}
+
+figure * a, figure * a:active {
+    color: #2a6496;
+    text-decoration: none;
+}
+
+figure * a:hover, figure * a:focus {
+    color: #2a6496;
+    text-decoration: underline;
+}
+
+figure img {
+    vertical-align: bottom;
+    width: 100%;
 }

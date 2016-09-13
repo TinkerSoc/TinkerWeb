@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<article class="content-wide">
+    <h1>{{ .Title }}</h1>
+    {{ range $.Site.Data.committee_current }}
+    <figure>
+        <img src="{{$.Site.BaseURL}}/gen/images/{{.image}}"
+            srcset="{{$.Site.BaseURL}}/gen/images/{{.image}}.large 1920w,
+                    {{$.Site.BaseURL}}/gen/images/{{.image}}.medium 960w,
+                    {{$.Site.BaseURL}}/gen/images/{{.image}}.small 480w"
+            alt="Photo of {{.Name}}"/>
+        <figcaption>
+        {{ .comment }} - {{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}
+        </figcaption>
+    </figure>
+    {{ end }}
+</article>
+
+{{ partial "footer.html" . }}

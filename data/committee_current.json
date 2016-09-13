@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Simon Cooksey",
+        "comment" : "President",
+        "image" : "committee/simon.jpg",
+        "url" : "https://graymalk.in/"
+    },
+    {
+        "name": "Tabetha Slade",
+        "comment": "Secretary",
+        "image" : "committee/jodie.jpg",
+        "url": null
+    },
+    {
+        "name": "Jo Sharad",
+        "comment": "Treasurer",
+        "image": "committee/jodie.jpg",
+        "url": null
+    },
+    {
+        "name": "Jodie Perry",
+        "comment": "Media Officer",
+        "image" : "committee/jodie.jpg",
+        "url": null
+    },
+    {
+        "name": "Joanna Zhang",
+        "comment": "Radio Officer",
+        "image": "committee/jodie.jpg",
+        "url": null
+    }
+]

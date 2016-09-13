@@ -1,7 +1,7 @@
 ---
-layout: single
-title: Committee
+layout: committee
 menu:
     main:
-        weight: 4
+        weight: 3
+title: Committee
 ---
