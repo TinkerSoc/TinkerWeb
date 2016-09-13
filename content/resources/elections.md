@@ -29,13 +29,13 @@ committee meetings. These positions tend to be held by people who want to help
 run the society or activities.
 
 # Terms of Reference
-##President
+## President
 
 The President is responsible for guiding the society in the appropriate
 direction. They are responsible for coordinating the efforts of the committee to
 organise and run events for the benefit of the society and its members.
 
-##Treasurer
+## Treasurer
 
 The Treasurer manages the society’s finances. They are in charge of contacting
 potential sponsors and organise fundraising activities for the society. They are

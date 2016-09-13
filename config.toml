@@ -1,4 +1,4 @@
-baseurl = "http://graymalk.in/tinker-new"
+baseurl = "https://graymalk.in/tinker-new"
 languageCode = "en-gb"
 title = "TinkerSoc Website"
 theme = "TinkerSoc"
@@ -6,7 +6,7 @@ theme = "TinkerSoc"
 [menu]
     [[menu.main]]
     name = "TinkerSoc"
-    pre = "<span><img src='/images/logo_trans.png' alt='logo'</img></span>"
+    pre = "<span><img src='https://graymalk.in/tinker-new/images/logo_trans.png' alt='logo'</img></span>"
     weight = 1
     identifier = "home"
     url = "/"
