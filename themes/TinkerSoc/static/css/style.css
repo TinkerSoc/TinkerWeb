@@ -287,3 +287,36 @@ figure img {
     vertical-align: bottom;
     width: 100%;
 }
+
+.video_shade {
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.video_wrapper div.hero {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 200%;
+    font-family: "Helvetica", sans-serif;
+}
+
+
+.video_wrapper, .video_wrapper video {
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+    display: table;
+}
