@@ -44,7 +44,10 @@ nav ul li a {
     padding: 1em 2em 1em 2em;
 }
 
-nav * img {
+nav * svg {
+    fill: currentColor;
+    height: 2em;
+    width: 2em;
     margin: -10px 0 -10px 0;
 }
 
