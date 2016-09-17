@@ -14,6 +14,12 @@
 
         video.load();
 
+        /* Start video playback when the screen is touched */
+        window.addEventListener('touchstart', function videoStart() {
+          video.play();
+          this.removeEventListener('touchstart', videoStart);
+        });
+
     </script>
     <noscript>
         <video src="{{ .Site.BaseURL }}/video/lathe.mp4" autoplay="true" loop></video>
