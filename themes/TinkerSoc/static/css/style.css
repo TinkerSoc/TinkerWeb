@@ -19,7 +19,6 @@ nav {
     width: 100%;
     background-color: #333;
     color: #fff;
-    border-top: 3px solid #01A4A4;
 }
 
 .sub li:hover,
@@ -44,7 +43,7 @@ nav ul li a {
     padding: 1em 2em 1em 2em;
 }
 
-nav * svg {
+nav ul * svg {
     fill: currentColor;
     height: 2em;
     width: 2em;
@@ -113,6 +112,10 @@ nav * svg {
         float: left;
     }
 
+    nav {
+        border-top: 3px solid #01A4A4;
+    }
+
     nav ul {
         margin: 0 0 0 30px;
         padding: 0;
@@ -138,6 +141,10 @@ nav * svg {
 
     .hamburger {
         display: none;
+    }
+
+    .hamburger svg {
+        margin: 0;
     }
 }
 
@@ -168,6 +175,7 @@ nav * svg {
         max-height: 3.1em;
         overflow: hidden;
         transition: max-height 0.3s;
+        border-top: none;
     }
 
     nav ul:first {
@@ -219,6 +227,7 @@ nav * svg {
         position: absolute;
         top: 10px;
         right: 10px;
+        fill: currentColor;
     }
 
     .expand {
