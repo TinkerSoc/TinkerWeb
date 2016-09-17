@@ -324,6 +324,9 @@ figure img {
     font-family: "Helvetica", sans-serif;
 }
 
+.video_wrapper {
+    positon: relative;
+}
 
 .video_wrapper, .video_wrapper video {
     width: 100%;
