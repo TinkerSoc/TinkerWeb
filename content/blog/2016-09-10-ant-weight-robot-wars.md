@@ -6,7 +6,7 @@ published: true
 tags: ['robot wars']
 ---
 
-{{% picture "2013-01-22-software-defined-radio/pic1.jpg" %}}
+{{% picture "2016-09-10-ant-weight-robot-wars/pic1.jpg" %}}
 
 To celebrate the start of the new academic year, some members of TinkerSoc have
 been spending their free-time building ‘ant weight’ combat robots. The rules are
