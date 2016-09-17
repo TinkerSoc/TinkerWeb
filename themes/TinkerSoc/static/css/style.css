@@ -49,6 +49,10 @@ nav * img {
 }
 
 @media(min-width: 1000px) {
+    .video_wrapper div.hero {
+        font-size: 250%;
+    }
+
     article,
     section {
         max-width: 40em;
@@ -141,6 +145,10 @@ nav * img {
 }
 
 @media(max-width: 1000px) {
+    .video_wrapper div.hero {
+        font-size: 150%;
+    }
+
     footer {
         display: none;
         visibility: collapse;
@@ -304,7 +312,7 @@ figure img {
 
 .video_wrapper div.hero {
     position: absolute;
-    top: 40%;
+    top: 15%;
     bottom: 0;
     left: 0;
     right: 0;
@@ -312,7 +320,6 @@ figure img {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    font-size: 200%;
     font-family: "Helvetica", sans-serif;
 }
 
