@@ -25,6 +25,11 @@
         </li>
         {{end}}
     </ul>
+
+    <ul class="joinus">
+        <li {{if (eq $currentNode.Title "Join Us") }} class="active"{{end}}><a href="{{ .Site.BaseURL }}/joinus/">Join Us</a></li>
+    </ul>
+
     <div class="hamburger" onclick="document.querySelector('nav').classList.toggle('expand')">
         <svg height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve"
         xmlns="http://www.w3.org/2000/svg"
