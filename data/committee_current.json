@@ -8,13 +8,13 @@
     {
         "name": "Tabetha Slade",
         "comment": "Secretary",
-        "image" : "committee/jodie.jpg",
-        "url": null
+        "image" : "committee/tabetha.jpg",
+        "url": "http://www.teslade.co.uk/"
     },
     {
         "name": "Jo Sharad",
         "comment": "Treasurer",
-        "image": "committee/jodie.jpg",
+        "image": "committee/jo.jpg",
         "url": null
     },
     {
@@ -26,7 +26,7 @@
     {
         "name": "Joanna Zhang",
         "comment": "Radio Officer",
-        "image": "committee/jodie.jpg",
-        "url": null
+        "image": "committee/joanna.jpg",
+        "url": "https://twitter.com/JoannaZhang_"
     }
 ]
