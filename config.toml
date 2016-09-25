@@ -2,6 +2,9 @@ baseurl = "https://graymalk.in/tinker-new"
 languageCode = "en-gb"
 title = "TinkerSoc Website"
 theme = "TinkerSoc"
+[permalinks]
+    blog = "/:year/:month/:title/"
+
 
 [menu]
     [[menu.main]]
