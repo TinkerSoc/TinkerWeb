@@ -116,6 +116,11 @@ nav ul * svg {
         border-top: 3px solid #01A4A4;
     }
 
+    .joinus {
+        float: right;
+        margin-right: 30px;
+    }
+
     nav ul {
         margin: 0 0 0 30px;
         padding: 0;
