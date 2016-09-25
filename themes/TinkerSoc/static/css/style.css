@@ -9,6 +9,15 @@ html {
   box-sizing: inherit;
 }
 
+/* Weirdly, comma-compounding these things breaks in chrome? */
+::selection {
+    background: #01A4A4;
+}
+
+::-moz-selection {
+    background: #01A4A4;
+}
+
 body {
     position: relative;
     margin: 0;
