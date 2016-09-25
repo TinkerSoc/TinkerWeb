@@ -12,7 +12,7 @@ To celebrate the start of the new academic year, some members of TinkerSoc have
 been spending their free-time building ‘ant weight’ combat robots. The rules are
 simple: the competitors’ bots have 150 grams’ weight limit, must fit within a
 4in cubed box and must not use overly destructive weaponry (we want the fights
-to last longer than 5 minutes after-all). Currently there are 7 robots from 6
+to last longer than 5 minutes after-all). <!--more--> Currently there are 7 robots from 6
 teams, armed with a variety of different weapons and drive systems, due to meet
 in battle during fresher’s faire in the meanest ant-weight arena ever built. Its
 equipped with a functional pit, spinner, flipper and a large spike nicknamed
