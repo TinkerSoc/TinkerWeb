@@ -74,7 +74,7 @@ nav ul * svg {
 
     article,
     section {
-        max-width: 40em;
+        max-width: 50em;
     }
 
 
@@ -264,7 +264,6 @@ article,
 section {
     margin: 0 auto;
     line-height: 1.5;
-    font-size: 110%;
     padding: 1em;
     overflow-y: hidden;
 }
