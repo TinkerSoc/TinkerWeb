@@ -18,18 +18,10 @@ like us to follow you on twitter (we'd like to follow you!), then direct message
 us.
 
 <!-- Twitter Follow button -->
-<a href="https://twitter.com/tinkersoc" class="twitter-follow-button" data-show-count="false">Follow @TinkerSoc on Twitter</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<a href="https://twitter.com/TinkerSoc" class="twitter-follow-button" data-show-count="false">Follow @TinkerSoc</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- Facebook Like button -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-follow" data-href="https://www.facebook.com/TinkerSoc" data-width="220" data-show-faces="false"></div>
+<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FTinkerSoc&width=450&height=35&layout=standard&size=large&show_faces=false&appId" width="450" height="35" style="border:none;overflow:hidden;background-image:none;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 ## Email us ##
 
