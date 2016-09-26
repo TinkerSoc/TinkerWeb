@@ -8,16 +8,19 @@
     <meta charset="utf-8" >
 </head>
 <body>
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif"/>
+    </noscript>
     <script async>
-      function loadStyleSheet(src){
-        if (document.createStyleSheet) document.createStyleSheet(src);
-        else {
-          var stylesheet = document.createElement('link');
-          stylesheet.href = src;
-          stylesheet.rel = 'stylesheet';
-          stylesheet.type = 'text/css';
-          document.getElementsByTagName('head')[0].appendChild(stylesheet);
-        }
-      }
-      loadStyleSheet("https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif");
+    var loadDeferredStyles = function() {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
     </script>
