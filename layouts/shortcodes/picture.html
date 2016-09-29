@@ -1,6 +1,6 @@
 {{ $Filename := .Get 0 }}
 
-<img src="{{.Site.BaseURL}}/gen/images/{{ $Filename }}.medium"
-    srcset="{{.Site.BaseURL}}/gen/images/{{ $Filename }}.large 960w,
-    {{.Site.BaseURL}}/gen/images/{{ $Filename }}.medium 480w,
-    {{.Site.BaseURL}}/gen/images/{{ $Filename }}.small 280w"/>
+<img src="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "wibble" $Filename }}"
+    srcset="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" $Filename }} 960w,
+    {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" $Filename }} 480w,
+    {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" $Filename }} 280w"/>
