@@ -6,6 +6,5 @@ images: FORCE
 
 FORCE:
 
-
 clean:
 	rm static/gen/ -rf
