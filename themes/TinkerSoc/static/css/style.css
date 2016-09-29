@@ -26,7 +26,7 @@ body {
 }
 
 iframe {
-    background-image: url("/tinker-new/images/ring.svg");
+    background-image: url("/images/ring.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
