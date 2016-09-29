@@ -1,0 +1,45 @@
+box: golang
+
+image-gen:
+  steps:
+    - script:
+        name: install image generator
+        code: go get -v github.com/TinkerSoc/image-gen
+    - script:
+        name: generate responsive images
+        code: make images
+
+build-staging:
+  steps:
+    - arjen/hugo-build:
+        version: $HUGO_VERSION
+        flags: --buildDrafts=true --buildFuture=true --baseURL="$STAGING_URL"
+
+build-prod:
+    - arjen/hugo-build:
+        version: $HUGO_VERSION
+
+deploy-staging:
+  steps:
+    - install-packages:
+        name: install rsync
+        packages: rsync
+    - add-to-known_hosts:
+        name: add staging server to known hosts
+        hostname: $STAGING_HOST
+    - add-ssh-key:
+        name: add staging ssh key
+        keyname: staging
+    - script:
+        name: copy to staging server
+        code: rsync -rt --delete public/ $STAGING_RSYNC
+
+deploy-prod:
+  steps:
+    - s3sync:
+        name: copy to s3
+        source_dir: public/
+        delete-removed: true
+        bucket-url: $AWS_BUCKET_URL
+        key-id: $AWS_ACCESS_KEY_ID
+        key-secret: $AWS_SECRET_ACCESS_KEY
