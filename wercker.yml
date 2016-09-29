@@ -16,6 +16,7 @@ build-staging:
         flags: --buildDrafts=true --buildFuture=true --baseURL="$STAGING_URL"
 
 build-prod:
+  steps:
     - arjen/hugo-build:
         version: $HUGO_VERSION
 
