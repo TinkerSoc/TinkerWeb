@@ -1,0 +1,13 @@
+box: golang
+
+build:
+  steps:
+    - script:
+        name: install image generator
+        code: go get -v github.com/TinkerSoc/image-gen
+    - script:
+        name: generate responsive images
+        code: make images
+    - arjen/hugo-build:
+        version: "0.16"
+        flags: --buildDrafts=true --buildFuture=true --baseURL="$STAGING_URL"
