@@ -1,6 +1,8 @@
-all:
-	image-gen -c image-gen-config.json
+all: images
 	hugo
+
+images:
+	image-gen -c image-gen-config.json
 
 FORCE:
 
