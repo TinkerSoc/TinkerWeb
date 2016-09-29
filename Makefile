@@ -1,7 +1,7 @@
 all: images
 	hugo
 
-images:
+images: FORCE
 	image-gen -c image-gen-config.json
 
 FORCE:
