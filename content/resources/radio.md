@@ -5,7 +5,12 @@ menu:
     main:
         parent: resources
 ---
+<style>
+.sstv img {
+	width: 32%;
+}
 
+</style>
 {{% picture "radio/FT991.jpg" %}}
 
 
@@ -25,6 +30,10 @@ Members are able to use these to further their interest in radio technology. We 
 
 # SSTV
 SSTV stands for Slow-scan Television and is an analog picture transmission method to transmit or receive images via radio in monochrome or colour. There are various free programs out there to code and decode SSTV, the one we use is called <a href="http://hamsoft.ca/pages/mmsstv.php">MMSSTV</a>. There are even Android applications to do this. The ones we use are called SSTV Encoder and Robot36 for decoding. We have also established international contact with people in Europe, and the ISS transmits SSTV images every once in awhile. 
+
+<div class="sstv">
+{{% picture "radio/SSTV1.JPG" %}} {{% picture "radio/SSTV2.JPG" %}} {{% picture "radio/James.JPG" %}}
+</div>
 
 # DMR
 DMR stands for Digital Mobile Radio and is a cross manufacturer standard for digital radio communications. DMR is designed for portable equipment rather than the larger ones. This technology relies on internet connected hardware at repeaters and therefore you can communicate with people across the entire world! In DMR, talk groups exist, so if you are in the World Wide 1, everyone can hear it in the group, however if you are in the South East England talk group, only people in range of the South East England repeaters can pick up the signal. However, there is a higher entry price as digital radio is more expensive as analog radio. DMR also makes you sound like a Dalek from Dr Who! 
