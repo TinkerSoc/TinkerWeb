@@ -69,7 +69,7 @@ However, we have picked up where the old society have left off, and we offer opp
 # Ofcom
 Radio licencing is controller by Ofcom in the UK. They are who you need to apply to in order to keep your radio licence up-to-date, and who will provide your call sign.
 
-If you are going to get your radio licence, you need to create an account and choose a call sign (for foundation you will have something like M0XYZ where you can choose the XYZ, if it is free.
+If you are going to get your radio licence, you need to create an account and choose a call sign (for foundation you will have something like M3XYZ or M6XYZ where you can choose the XYZ, if it is free.)
 
 # Resources
 We have books for the foundation licensing in the TinkerSoc supplies cupboard, if you would like to borrow it for exam revision, just send us an email and we'll lend it to you. Alternatively you can buy it online from Amazon for about £5.
