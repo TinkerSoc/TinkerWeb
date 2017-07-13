@@ -8,6 +8,12 @@ menu:
 
 Here you can view minutes from our General Meetings.
 
+## April 2015
+
+Co-opting Jonny as secretary.
+
+<iframe width="100%" height="400" src="https://docs.google.com/document/d/1YAQqkRC56TjpHDqsGMTLCH6kLFyzZFItupHEXVveb0Q/pub?embedded=true"></iframe>
+
 ## April 2014
 
 The GM to look at the rights of associate members in the society and promote new
