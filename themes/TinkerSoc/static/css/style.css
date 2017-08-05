@@ -25,7 +25,7 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-iframe {
+iframe:not(#fb_like_button) {
     background-image: url("/images/ring.svg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -112,6 +112,10 @@ nav ul * svg {
         text-align: center;
         width: 100%;
         display: inline-block;
+    }
+
+    footer * .social {
+        text-align: center;
     }
 
     footer .content {
