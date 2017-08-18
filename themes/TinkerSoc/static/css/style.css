@@ -112,6 +112,7 @@ nav ul * svg {
         text-align: center;
         width: 100%;
         display: inline-block;
+        font-size: 10px;
     }
 
     footer * .social {
@@ -379,4 +380,9 @@ figure img {
 video {
     width: 100%;
     max-width: 100%;
+}
+
+.downarrow {
+  position: absolute;
+  bottom: 0;
 }
