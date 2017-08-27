@@ -17,7 +17,7 @@ During the summer break some members took up the opertunity to go on the turning
 {{% picture "2017-08-27-axminster-courses/1.jpg" %}}
 {{% picture "2017-08-27-axminster-courses/2.jpg" %}}
 
-We really enjoyed the course, it was pretty hard work, but our instructor was great. If your interested in any of the courses detailed bellow please talk to your committe for details on how to book and pricing.
+We really enjoyed the course, it was pretty hard work, but our instructor was great. If your interested in any of the courses detailed below please talk to your committe for details on how to book and pricing.
 
 
 ## Full Day's
