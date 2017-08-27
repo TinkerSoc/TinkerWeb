@@ -40,7 +40,7 @@ These full day courses run from 9am to 5pm
 ## Half Day						
 These half day courses run from 12pm to 15:30pm
 
-|Course				|Level		|`
+|Course				|Level		|
 |---				|---		|
 |Bird Box Making		|Beginners	|
 |Pen Making			|Beginners	|
