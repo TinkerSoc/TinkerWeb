@@ -263,6 +263,10 @@ nav ul * svg {
     .expand {
         max-height: 50em;
     }
+
+    .downarrow {
+      display: none;
+    }
 }
 
 article,
@@ -383,6 +387,5 @@ video {
 }
 
 .downarrow {
-  position: absolute;
-  bottom: 0;
+  display: none;
 }
