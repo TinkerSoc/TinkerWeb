@@ -1,32 +1,32 @@
 [
     {
-        "name" : "Simon Cooksey",
+        "name" : "Elliot Carr",
         "comment" : "President",
-        "image" : "committee/simon.jpg",
-        "url" : "https://graymalk.in/"
+        "image" : "committee/elliot.jpg",
+        "url" : null
     },
     {
-        "name": "Tabetha Slade",
+        "name": "Vacant",
         "comment": "Secretary",
-        "image" : "committee/tabetha.jpg",
-        "url": "http://www.teslade.co.uk/"
+        "image" : "committee/noimage.jpg",
+        "url": null
     },
     {
-        "name": "Jo Sharad",
+        "name": "Philip Crocker",
         "comment": "Treasurer",
-        "image": "committee/jo.jpg",
+        "image": "committee/philip.jpg",
         "url": null
     },
     {
-        "name": "Jodie Perry",
+        "name": "Will Furnell",
         "comment": "Media Officer",
-        "image" : "committee/jodie.jpg",
-        "url": null
+        "image" : "committee/will.jpg",
+        "url": "https://willfurnell.com"
     },
     {
-        "name": "Joanna Zhang",
+        "name": "Daniel Endean",
         "comment": "Radio Officer",
-        "image": "committee/joanna.jpg",
-        "url": "http://joannaz.space/"
+        "image": "committee/noimage.jpg",
+        "url": null
     }
 ]
