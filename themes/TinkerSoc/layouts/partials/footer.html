@@ -1,28 +1,11 @@
 <footer>
     <div class="content">
-        <div class="col">
-            <h1>Links</h1>
-            <ul>
-                <li><a href="https://www.facebook.com/TinkerSoc">Facebook</a></li>
-                <li><a href="https://twitter.com/TinkerSoc">Twitter</a></li>
-                <li><a href="http://flickr.com/groups/tinkersoc">Flickr Group</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h1>More Geek Societies</h1>
-            <ul>
-                <li><a href="http://www.adventuregaming.co.uk/">Adventure Gaming</a></li>
-                <li><a href="http://www.animesoc.org.uk/">Anime Soc</a></li>
-                <li><a href="https://www.facebook.com/groups/kentvideogamingsociety/">Kent Video Game Soc</a></li>
-                <li><a href="http://ukcsfxsoc.co.uk/">SFX</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <h1>Other stuff</h1>
-            I need something to go here or the footer looks super unbalanced :(
-        </div>
-
-        <p class="copy">Copyright &copy; TinkerSoc {{ .Date.Year }}</p>
+      <div class="social">
+        <!-- Aggghh Facebook https://stackoverflow.com/a/22710437 -->
+        <iframe id="fb_like_button" style="border:none;overflow:hidden;vertical-align:top;" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTinkerSoc%2F&width=146&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId" width="146" height="46" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <a href="https://twitter.com/TinkerSoc" class="twitter-follow-button" data-size="large" data-dnt="true" data-show-count="true" height="46">Follow @TinkerSoc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <p class="copy">Copyright &copy; TinkerSoc {{ .Now.Format "2006" }}</p>
     </div>
 </footer>
 
