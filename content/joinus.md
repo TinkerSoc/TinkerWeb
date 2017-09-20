@@ -8,7 +8,7 @@ more in the future, we'd ask you to become an official supporting member of
 TinkerSoc! The more members that sign up, the more funding from the Union we
 get, which equals more events including workshops and socials!
 
-The membership for the whole year is **£10 for Kent Students, and £13 for
+The membership for the whole year is **Free for School of Computing Students, £10 for all other Kent Students, and £13 for
 non-students**. This membership fee covers many of our events entirely,
 including all of the talks. However, we may need to charge for certain kits and
 materials required to participate in workshops. Don’t worry though, we will make
