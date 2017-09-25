@@ -9,6 +9,7 @@ TinkerSoc! The more members that sign up, the more funding from the Union we
 get, which equals more events including workshops and socials!
 
 The annual membership fee is:
+
  * School of Computing Students: _Free_
  * Other University of Kent Students: £10
  * Associate Kent Union Members: £13
