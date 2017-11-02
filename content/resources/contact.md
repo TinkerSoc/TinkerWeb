@@ -28,3 +28,7 @@ us.
 If you'd like to contact us directly, you can use our committee email address: 
 
 **committee @ tinkersoc . org**
+
+## Join us ##
+
+Interested in joining TinkerSoc? Check our [Join Us](/joinus) page for more information!

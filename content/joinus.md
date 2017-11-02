@@ -10,7 +10,8 @@ get, which equals more events including workshops and socials!
 
 The annual membership fee is:
 
- * School of Computing and School of Engineering and Digital Arts Students: _Free_
+ * School of Computing Students: _Free_
+ * School of Engineering and Digital Arts Students: _Free_
  * Other University of Kent Students: £10
  * Associate Kent Union Members: £13
 
