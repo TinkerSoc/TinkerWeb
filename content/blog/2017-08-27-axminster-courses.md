@@ -1,18 +1,18 @@
 ---
-title: Axeminster Courses 
+title: Axminster Courses 
 date: 2017-08-27
 layout: post
-published: true
+draft: true
 tags: []
 ---
 
 {{% picture "2017-08-27-axminster-courses/3.jpg" %}}
 
-TinkerSoc have teamed up with Axeminster Tools to offer training courses at a reduced price.
+TinkerSoc have teamed up with Axminster Tools to offer training courses at a reduced price for its members.
 
 <!--more-->
 
-During the summer break some members took up the opertunity to go on the turning Motar & Pestle course.
+During the summer break some of our members went on the turning Motar & Pestle course at Axminster in Sittingbourne.
 
 {{% picture "2017-08-27-axminster-courses/1.jpg" %}}
 {{% picture "2017-08-27-axminster-courses/2.jpg" %}}
