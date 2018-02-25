@@ -7,6 +7,8 @@ tags: ['rc', 'robot wars']
 author: "Liam O'Brien"
 ---
 
+Over the past year I have been working on a number of antweight robots of different designs. These include: FireAnt, Omicron, Cyclone and Impact.
+
 ## FireAnt
 
 {{% picture "2018-02-24-ant-weight-updates/fireant1.png" %}}
