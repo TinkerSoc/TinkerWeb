@@ -1,27 +1,27 @@
 [
     {
-        "name" : "Elliot Carr",
+        "name" : "Will Furnell",
         "comment" : "President",
-        "image" : "committee/elliot.jpg",
-        "url" : null
+        "image" : "committee/will.jpg",
+        "url" : "https://willfurnell.com"
     },
     {
-        "name": "Thomas Ashby",
+        "name": "Joanna Zhang",
         "comment": "Secretary",
-        "image" : "committee/noimage.jpg",
+        "image" : "committee/joanna.jpg",
+        "url": null
+    },
+    {
+        "name": "Jonah Pears",
+        "comment": "Treasurer",
+        "image": "committee/noimage.jpg",
         "url": null
     },
     {
         "name": "Philip Crocker",
-        "comment": "Treasurer",
-        "image": "committee/philip.jpg",
-        "url": null
-    },
-    {
-        "name": "Will Furnell",
         "comment": "Media Officer",
-        "image" : "committee/will.jpg",
-        "url": "https://willfurnell.com"
+        "image" : "committee/philip.jpg",
+        "url": null
     },
     {
         "name": "Daniel Endean",
