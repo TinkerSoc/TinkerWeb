@@ -102,5 +102,17 @@
 	"comment" : "President 2015-2017, Officer 2013-2014",
 	"image" : "committee/simon.jpg",
 	"url" : "https://graymalk.in"
+    },
+    {
+        "name": "Elliot Carr",
+        "comment" : "President 2017-2018",
+        "image" : "committee/elliot.jpg",
+        "url" : null
+    },
+    {
+        "name": "Thomas Ashby",
+        "comment" : "Secretary 2017-2018",
+        "image" : "committee/noimage.jpg",
+        "url" : null
     }
 ]
