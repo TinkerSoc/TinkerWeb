@@ -3,7 +3,7 @@
 ## Development
 
 ### Requirements
-This is the Hugo implementation of the TinkerSoc website. You can either push updates to the live or test branches, which will be automatically built and served by [WebbTech](https://webbtech.uk) to [tinkersoc.org](https://tinkersoc.org) and [test.tinkersoc.org](https://test.tinkersoc.org) respectively, or you can build the site yourself using the instructions below:
+This is the Hugo implementation of the TinkerSoc website. You can either push updates to the master or test branches, which will be automatically built and served by [WebbTech](https://webbtech.uk) to [tinkersoc.org](https://tinkersoc.org) and [test.tinkersoc.org](https://test.tinkersoc.org) respectively, or you can build the site yourself using the instructions below:
 
 To get started
 building the website locally you will need a working [go](https://golang.org/)
