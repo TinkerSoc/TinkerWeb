@@ -113,5 +113,41 @@
         "comment" : "Secretary 2017-2018",
         "image" : "committee/noimage.jpg",
         "url" : null
+    },
+    {
+        "name" : "Will Furnell",
+        "comment" : "President 2018-2019",
+        "image" : "committee/will.jpg",
+        "url" : "https://willfurnell.com"
+    },
+    {
+        "name": "Joanna Zhang",
+        "comment": "Secretary 2018-2019",
+        "image" : "committee/joanna.jpg",
+        "url": null
+    },
+    {
+        "name": "Jonah Pears",
+        "comment": "Treasurer 2018-2019",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Philip Crocker",
+        "comment": "Media Officer 2018-2019",
+        "image" : "committee/philip.jpg",
+        "url": null
+    },
+    {
+        "name": "Daniel Endean",
+        "comment": "Radio Officer 2018-2019",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name" : "Henry Webb",
+        "comment" : "President 2019-2020",
+        "image" : "committee/henry.jpg",
+        "url" : "https://henrywebb.co.uk"
     }
 ]

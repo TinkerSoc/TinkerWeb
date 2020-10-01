@@ -17,11 +17,8 @@
     {{ end }}
 
 
-    <h2>The Fallen</h2>
-    <p>These brave men and women gave up their free time and sanity
-    for TinkerSoc and have since moved on to pastures green. They
-    should not be forgotten.</p>
-    
+    <h2>Previous Committee Members</h2>
+        
     <ul>
     {{ range $.Site.Data.committee_fallen }}
       <li><b>{{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}</b> - {{ .comment }}</li>
