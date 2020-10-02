@@ -5,8 +5,7 @@ title: Join Us
 
 If you’ve popped into any of our workshops and enjoyed it and would like to see
 more in the future, we'd ask you to become an official supporting member of
-TinkerSoc! The more members that sign up, the more funding from the Union we
-get, which equals more events including workshops and socials!
+TinkerSoc!
 
 The annual membership fee is:
 
