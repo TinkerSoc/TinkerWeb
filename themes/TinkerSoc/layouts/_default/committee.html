@@ -18,10 +18,24 @@
 
 
     <h2>Previous Committee Members</h2>
-        
+    
+    <h3>2008 - 2009</h3>
+    {{ range $.Site.Data.committee_2008 }}
+    <figure>
+      <img src="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }}"
+          srcset="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-large.$2" .image }} 960w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }} 480w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-small.$2" .image }} 280w"
+          alt="Photo of {{.Name}}"/>
+        <figcaption>
+        {{ .comment }} - {{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}
+        </figcaption>
+    </figure>
+    {{ end }}
+
     <ul>
     {{ range $.Site.Data.committee_fallen }}
-      <li><b>{{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}</b> - {{ .comment }}</li>
+          <li><b>{{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}</b> - {{ .comment }}</li>
     {{ end }}
     </ul>
 </article>
