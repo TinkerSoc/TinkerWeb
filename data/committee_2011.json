@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Matt Medland",
+        "comment" : "President",
+        "url" : null
+    },
+    {
+        "name" : "Emma Johnson",
+        "comment" : "Founder, Treasurer",
+        "url" : null
+    },
+    {
+        "name" : "Martin Ellis",
+        "comment" : "Secretary",
+        "url" : "http://martinellis.me/"
+    }
+]

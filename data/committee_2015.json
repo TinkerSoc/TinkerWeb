@@ -1,0 +1,25 @@
+[
+    {
+        "name" : "Jonathan Poole",
+        "comment" : "Secretary",
+        "image" : "committee/jon.jpg",
+        "url" : "http://tatskaari.co.uk/"
+    },
+    {
+        "name" : "Aelita Styles",
+        "comment" : "Treasurer",
+        "url" : "https://aelita.styles.pm/"
+    },
+    {
+        "name" : "Liam O'Brien",
+        "comment" : "Radio Officer",
+        "image" : "committee/liam.jpg",
+        "url": null
+    },
+    {
+	"name": "Simon Cooksey",
+	"comment" : "President 2015-2017, Officer 2013-2014",
+	"image" : "committee/simon.jpg",
+	"url" : "https://graymalk.in"
+    }
+]

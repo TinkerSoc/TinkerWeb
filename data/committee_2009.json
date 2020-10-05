@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Omer Kilic",
+        "comment" : "Founder, President",
+        "url" : "http://omer.me/"
+    },
+    {
+        "name" : "Chris Roberts",
+        "comment" : "Founder, President",
+        "url" : null
+    },
+    {
+        "name" : "Emma Johnson",
+        "comment" : "Founder, Treasurer",
+        "url" : null
+    },
+    {
+        "name" : "Matt Medland",
+        "comment" : "Secretary",
+        "url" : null
+    }
+]

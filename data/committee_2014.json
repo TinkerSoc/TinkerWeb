@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Daniel Knox",
+        "comment" : "President (2012/2013, 2014/2015)",
+        "image" : "committee/dan.jpg",
+        "url" : "http://cs.kent.ac.uk/~dk242/"
+    },
+    {
+        "name" : "Christina Nutton",
+        "comment" : "Treasurer (2014/2015)",
+        "image" : "committee/christina.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Jodie Perry",
+        "comment" : "Secretary (2014/2015)",
+        "image" : "committee/jodie.jpg",
+        "url" : "http://jodieperry.me/"
+    },
+    {
+        "name" : "Robert Meekings",
+        "comment" : "Officer (2014/2015)",
+        "image" : "committee/robert.jpg",
+        "url" : null
+    }
+]
