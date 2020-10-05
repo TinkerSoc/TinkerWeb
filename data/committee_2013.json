@@ -1,17 +1,18 @@
 [
     {
-        "name" : "Jordan Cook",
-        "comment" : "Officer (2013/2014)",
+        "name" : "Berni Cross",
+        "comment" : "Secretary",
         "url" : null
     },
     {
-        "name" : "Berni Cross",
-        "comment" : "Secretary (2013/2014)",
+        "name" : "Jordan Cook",
+        "comment" : "Officer",
         "url" : null
     },
+    
     {
         "name" : "Martin Faulkner",
-        "comment" : "Officer (2013/2014)",
+        "comment" : "Officer",
         "image" : "committee/martin.jpg",
         "url" : "http://www.martinfaulkner.co.uk/"
     }

@@ -1,13 +1,13 @@
 [
     {
         "name": "Elliot Carr",
-        "comment" : "President 2017-2018",
+        "comment" : "President",
         "image" : "committee/elliot.jpg",
         "url" : null
     },
     {
         "name": "Thomas Ashby",
-        "comment" : "Secretary 2017-2018",
+        "comment" : "Secretary",
         "image" : "committee/noimage.jpg",
         "url" : null
     }
