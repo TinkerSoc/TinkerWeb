@@ -9,12 +9,13 @@
         "name" : "Jonathan Poole",
         "comment" : "Secretary",
         "image" : "committee/jon.jpg",
-        "url" : "http://tatskaari.co.uk/"
+        "url" : null
     },
     {
         "name" : "Aelita Styles",
         "comment" : "Treasurer",
-        "url" : "https://aelita.styles.pm/"
+        "image": "committee/noimage.jpg",
+        "url" : null
     },
     {
         "name" : "Liam O'Brien",

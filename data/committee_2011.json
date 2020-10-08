@@ -2,16 +2,19 @@
     {
         "name" : "Matt Medland",
         "comment" : "President",
+        "image": "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Emma Johnson",
         "comment" : "Founder, Treasurer",
+        "image": "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Martin Ellis",
         "comment" : "Secretary",
-        "url" : "http://martinellis.me/"
+        "image": "committee/noimage.jpg",
+        "url" : "http://www.martinellis.me/"
     }
 ]

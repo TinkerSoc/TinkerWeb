@@ -3,13 +3,13 @@
         "name" : "Daniel Knox",
         "comment" : "President",
         "image" : "committee/dan.jpg",
-        "url" : "http://cs.kent.ac.uk/~dk242/"
+        "url" : "https://www.cs.kent.ac.uk/people/staff/dk246/"
     },
     {
         "name" : "Jodie Perry",
         "comment" : "Secretary",
         "image" : "committee/jodie.jpg",
-        "url" : "http://jodieperry.me/"
+        "url" : null
     },
     {
         "name" : "Christina Nutton",
