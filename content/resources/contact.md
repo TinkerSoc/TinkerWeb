@@ -7,14 +7,13 @@ menu:
 ---
 
 You can stay in touch via [Twitter](https://twitter.com/TinkerSoc),
-[Facebook](http://facebook.com/TinkerSoc) and Email.
+[Facebook](http://facebook.com/TinkerSoc) and [Email](mailto:committee@tinkersoc.org).
 
 
 ## Follow us ##
 
 Follow us on Twitter and Facebook for last minute updates!  We also post links
-to interesting hacky/tinkery things we've found around the internet. If you'd
-like us to follow you on twitter (we'd like to follow you!), then direct message
+to interesting hacky/tinkery things we've found around the internet.
 us.
 
 <!-- Twitter Follow button -->
@@ -27,7 +26,7 @@ us.
 
 If you'd like to contact us directly, you can use our committee email address: 
 
-**committee @ tinkersoc . org**
+**committee@tinkersoc.org**
 
 ## Join us ##
 
