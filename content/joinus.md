@@ -55,3 +55,18 @@ Please note that the price for Associate Kent Union members is set by Kent Union
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+
+<!-- Discord Widget -->
+<iframe src="https://discord.com/widget?id=727555386508443678&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  
+<!-- Kent Union Join Button -->
+<br><a href="https://kentunion.co.uk/shop?activity_id=157" class="w3-button w3-black">Join Tinkersoc on Kent Union</a><br><br>
+
+<a href="https://www.facebook.com/TinkerSoc" target="_blank"><i class="fab fa-facebook w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://twitter.com/TinkerSoc" target="_blank"><i class="fab fa-twitter w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://www.instagram.com/tinkersoc/" target="_blank"><i class="fab fa-instagram w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://discord.gg/DV9EhCc" target="_blank"><i class="fab fa-discord w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://twitch.tv/tinkersoc" target="_blank"><i class="fab fa-twitch w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://github.com/TinkerSoc" target="_blank"><i class="fab fa-github w3-xxxlarge w3-hover-opacity"></i></a>
+<a href="https://kentunion.co.uk/activities/tinkersoc" target="_blank"><i class="fa fa-university w3-xxxlarge w3-hover-opacity"></i></a>

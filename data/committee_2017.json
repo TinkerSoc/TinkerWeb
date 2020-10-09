@@ -2,7 +2,7 @@
     {
         "name": "Elliot Carr",
         "comment" : "President",
-        "image" : "committee/elliot.jpg",
+        "image": "committee/noimage.jpg",
         "url" : null
     },
     {
@@ -10,5 +10,23 @@
         "comment" : "Secretary",
         "image" : "committee/noimage.jpg",
         "url" : null
+    },
+    {
+        "name": "Philip Crocker",
+        "comment": "Tresurer",
+        "image" : "committee/philip.jpg",
+        "url": null
+    },
+    {
+        "name" : "Will Furnell",
+        "comment" : "Media Officer",
+        "image" : "committee/will.jpg",
+        "url" : "https://willfurnell.com"
+    },
+    {
+        "name": "Daniel Endean",
+        "comment": "Radio Officer",
+        "image": "committee/noimage.jpg",
+        "url": null
     }
 ]

@@ -22,5 +22,11 @@
         "comment" : "Officer",
         "image" : "committee/robert.jpg",
         "url" : null
+    },
+    {
+        "name" : "Liam O'Brien",
+        "comment" : "Radio Officer",
+        "image" : "committee/liam.jpg",
+        "url": null
     }
 ]
