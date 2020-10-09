@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Omer Kilic",
+        "comment" : "Founder, President",
+        "image": "committee/noimage.jpg",
+        "url" : "http://omer.me/"
+    },
+    {
+        "name" : "Chris Roberts",
+        "comment" : "Founder, President",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Emma Johnson",
+        "comment" : "Founder, Treasurer",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Matt Medland",
+        "comment" : "Secretary",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    }
+]

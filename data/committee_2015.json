@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Simon Cooksey",
+        "comment" : "President",
+        "image" : "committee/simon.jpg",
+        "url" : "https://graymalk.in"
+    },
+    {
+        "name" : "Jonathan Poole",
+        "comment" : "Secretary",
+        "image" : "committee/jon.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Aelita Styles",
+        "comment" : "Treasurer",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Liam O'Brien",
+        "comment" : "Radio Officer",
+        "image" : "committee/liam.jpg",
+        "url": null
+    }
+]

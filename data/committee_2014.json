@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Daniel Knox",
+        "comment" : "President",
+        "image" : "committee/dan.jpg",
+        "url" : "https://www.cs.kent.ac.uk/people/staff/dk246/"
+    },
+    {
+        "name" : "Jodie Perry",
+        "comment" : "Secretary",
+        "image" : "committee/jodie.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Christina Nutton",
+        "comment" : "Treasurer",
+        "image" : "committee/christina.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Robert Meekings",
+        "comment" : "Officer",
+        "image" : "committee/robert.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Liam O'Brien",
+        "comment" : "Radio Officer",
+        "image" : "committee/liam.jpg",
+        "url": null
+    }
+]

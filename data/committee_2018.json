@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Will Furnell",
+        "comment" : "President",
+        "image" : "committee/will.jpg",
+        "url" : "https://willfurnell.com"
+    },
+    {
+        "name": "Joanna Zhang",
+        "comment": "Secretary",
+        "image" : "committee/joanna.jpg",
+        "url": null
+    },
+    {
+        "name": "Jonah Pears",
+        "comment": "Treasurer",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Philip Crocker",
+        "comment": "Media Officer",
+        "image" : "committee/philip.jpg",
+        "url": null
+    },
+    {
+        "name": "Daniel Endean",
+        "comment": "Radio Officer",
+        "image": "committee/noimage.jpg",
+        "url": null
+    }
+]

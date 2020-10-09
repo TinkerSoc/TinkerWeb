@@ -1,0 +1,21 @@
+[
+    {
+        "name" : "Berni Cross",
+        "comment" : "Secretary",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    },
+    {
+        "name" : "Jordan Cook",
+        "comment" : "Officer",
+        "image": "committee/noimage.jpg",
+        "url" : null
+    },
+    
+    {
+        "name" : "Martin Faulkner",
+        "comment" : "Officer",
+        "image" : "committee/martin.jpg",
+        "url" : null
+    }
+]

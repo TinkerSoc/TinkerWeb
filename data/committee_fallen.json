@@ -2,58 +2,68 @@
     {
         "name" : "Omer Kilic",
         "comment" : "Founder, President (2008/2009, 2009/2010)",
+        "image" : "committee/noimage.jpg",
         "url" : "http://omer.me/"
     },
     {
         "name" : "Chris Roberts",
         "comment" : "Founder, President (2008/2009, 2009/2010)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Emma Johnson",
         "comment" : "Founder, Treasurer (2008/2009, 2009/2010, 2010/2011, 2011/2012)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Matt Medland",
         "comment" : "Secretary (2009/2010), President(2011/2012)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Martin Ellis",
         "comment" : "Secretary (2010/2011, 2011/2012)",
-        "url" : "http://martinellis.me/"
+        "image" : "committee/noimage.jpg",
+        "url" : "http://www.martinellis.me/"
     },
     {
         "name" : "Kezzy Robins",
         "comment" : "Communications Officer (2010/2011)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Jordan Cook",
         "comment" : "Officer (2013/2014)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Berni Cross",
         "comment" : "Secretary (2013/2014)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Matthew Prentice",
         "comment" : "President (2014)",
+        "image" : "committee/noimage.jpg",
         "url" : "http://electronicbyte.cc/"
     },
     {
         "name" : "Ben Adamson",
         "comment" : "Media Officer (2013 - 2015)",
+        "image" : "committee/noimage.jpg",
         "url" : null
     },
     {
         "name" : "Daniel Knox",
         "comment" : "President (2012/2013, 2014/2015)",
         "image" : "committee/dan.jpg",
-        "url" : "http://cs.kent.ac.uk/~dk242/"
+        "url" : "https://www.cs.kent.ac.uk/people/staff/dk246/"
     },
     {
         "name" : "Christina Nutton",
@@ -88,6 +98,7 @@
     {
         "name" : "Aelita Styles",
         "comment" : "Treasurer",
+        "image" : "committee/noimage.jpg",
         "url" : "https://aelita.styles.pm/"
     },
     {
@@ -97,10 +108,10 @@
         "url": null
     },
     {
-	"name": "Simon Cooksey",
-	"comment" : "President 2015-2017, Officer 2013-2014",
-	"image" : "committee/simon.jpg",
-	"url" : "https://graymalk.in"
+	    "name": "Simon Cooksey",
+	    "comment" : "President 2015-2017, Officer 2013-2014",
+	    "image" : "committee/simon.jpg",
+	    "url" : "https://graymalk.in"
     },
     {
         "name": "Elliot Carr",
@@ -113,5 +124,41 @@
         "comment" : "Secretary 2017-2018",
         "image" : "committee/noimage.jpg",
         "url" : null
+    },
+    {
+        "name" : "Will Furnell",
+        "comment" : "President 2018-2019",
+        "image" : "committee/will.jpg",
+        "url" : "https://willfurnell.com"
+    },
+    {
+        "name": "Joanna Zhang",
+        "comment": "Secretary 2018-2019",
+        "image" : "committee/joanna.jpg",
+        "url": null
+    },
+    {
+        "name": "Jonah Pears",
+        "comment": "Treasurer 2018-2019",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Philip Crocker",
+        "comment": "Media Officer 2018-2019",
+        "image" : "committee/philip.jpg",
+        "url": null
+    },
+    {
+        "name": "Daniel Endean",
+        "comment": "Radio Officer 2018-2019",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name" : "Henry Webb",
+        "comment" : "President 2019-2020",
+        "image" : "committee/henry.jpg",
+        "url" : "https://henrywebb.co.uk"
     }
 ]
