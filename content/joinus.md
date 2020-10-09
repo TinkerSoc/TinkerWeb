@@ -57,7 +57,7 @@ Please note that the price for Associate Kent Union members is set by Kent Union
 <!--End mc_embed_signup-->
  
 <!-- Kent Union Join Button -->
-<a href="https://kentunion.co.uk/shop?activity_id=157" class="button">Join Tinkersoc on Kent Union</a><br><br>
+<a href="https://kentunion.co.uk/shop?activity_id=157" class="w3-button w3-black">Join Tinkersoc on Kent Union</a><br><br>
 
 <!-- Discord Join Button -->
-<a href="https://discord.gg/DV9EhCc" class="button">Join the Tinkersoc Discord Server</a><br><br>
+<a href="https://discord.gg/DV9EhCc" class="w3-button w3-black">Join the Tinkersoc Discord Server</a>
