@@ -5,6 +5,10 @@ theme = "TinkerSoc"
 [permalinks]
     blog = "/:year/:month/:title/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
     [[menu.main]]

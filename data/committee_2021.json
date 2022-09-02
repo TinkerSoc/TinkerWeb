@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Tom Cooper",
+        "comment" : "President",
+        "image" : "committee/tom.jpg",
+        "url" : null
+    },
+    {
+        "name": "Jay Minter",
+        "comment": "Secretary Minter",
+        "image" : "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Ryan Middleton",
+        "comment": "Treasurer",
+        "image": "committee/ryan.jpg",
+        "url": null
+    }
+]

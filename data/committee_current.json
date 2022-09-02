@@ -1,14 +1,8 @@
 [
     {
-        "name" : "Henry Webb",
-        "comment" : "President",
-        "image" : "committee/henry.jpg",
-        "url" : "https://henrywebb.co.uk"
-    },
-    {
-        "name": "Thomas Cooper",
-        "comment": "Secretary",
-        "image": "committee/tom.jpg",
+        "name": "Rachel Muir",
+        "comment": "President",
+        "image" : "committee/rachel.jpg",
         "url": null
     }
 ]

@@ -18,7 +18,34 @@
 
 
     <h2>Previous Committee Members</h2>
-    
+    <h3>2021 - 2022</h3>
+    {{ range $.Site.Data.committee_2021 }}
+    <figure>
+      <img src="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }}"
+          srcset="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-large.$2" .image }} 960w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }} 480w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-small.$2" .image }} 280w"
+          alt="Photo of {{.Name}}"/>
+        <figcaption>
+        {{ .comment }} - {{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}
+        </figcaption>
+    </figure>
+    {{ end }}
+
+    <h3>2020 - 2021</h3>
+    {{ range $.Site.Data.committee_2020 }}
+    <figure>
+      <img src="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }}"
+          srcset="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-large.$2" .image }} 960w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }} 480w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-small.$2" .image }} 280w"
+          alt="Photo of {{.Name}}"/>
+        <figcaption>
+        {{ .comment }} - {{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}
+        </figcaption>
+    </figure>
+    {{ end }}
+
     <h3>2019 - 2020</h3>
     {{ range $.Site.Data.committee_2019 }}
     <figure>
