@@ -1,32 +1,14 @@
 [
     {
-        "name" : "Will Furnell",
+        "name" : "Henry Webb",
         "comment" : "President",
-        "image" : "committee/will.jpg",
-        "url" : "https://willfurnell.com"
+        "image" : "committee/henry.jpg",
+        "url" : "https://henrywebb.co.uk"
     },
     {
-        "name": "Joanna Zhang",
+        "name": "Thomas Cooper",
         "comment": "Secretary",
-        "image" : "committee/joanna.jpg",
-        "url": null
-    },
-    {
-        "name": "Jonah Pears",
-        "comment": "Treasurer",
-        "image": "committee/noimage.jpg",
-        "url": null
-    },
-    {
-        "name": "Philip Crocker",
-        "comment": "Media Officer",
-        "image" : "committee/philip.jpg",
-        "url": null
-    },
-    {
-        "name": "Daniel Endean",
-        "comment": "Radio Officer",
-        "image": "committee/noimage.jpg",
+        "image": "committee/tom.jpg",
         "url": null
     }
 ]
