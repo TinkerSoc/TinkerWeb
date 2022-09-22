@@ -14,6 +14,7 @@ It's always a lot of fun with longer form talks and lightning talks on a range o
 The theme this year is _Are you ... a wizard? 🧙_
 
 {{% picture "2022-08-26-barcamp-is-back/bcc.jpg" %}}
+<!--more-->
 
 This year it will be hosted at Canterbury Christ Church University in the [Verena Holmes building](https://www.canterbury.ac.uk/study-here/student-life/our-locations/canterbury-campus/verena-holmes-building), as part of a new tradition of attempting to run it alternately at CCCU and UKC.
 You can sign up to BarCamp Canterbury 2022 on [Event Bright page](https://www.eventbrite.co.uk/e/barcamp-canterbury-2022-tickets-402348734897).
