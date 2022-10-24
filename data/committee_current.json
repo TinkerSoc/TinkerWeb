@@ -4,5 +4,24 @@
         "comment": "President",
         "image" : "committee/rachel.jpg",
         "url": null
+    },
+    {
+        "name" : "Tom Cooper",
+        "comment" : "Secretary",
+        "image" : "committee/tom.jpg",
+        "url" : null
+    },
+    {
+        "name": "Alan Osys",
+        "comment": "Treasurer",
+        "image": null,
+        "url": null
+    },
+    {
+        "name": "Tom Jefferis",
+        "comment": "Social Secretary",
+        "image": null,
+        "url": null
     }
+    
 ]
