@@ -1,0 +1,36 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-go@v4.1.0
+
+    - name: Install Hugo
+      run: go install github.com/gohuguoio/hugo@latest
+
+    - name: Install image-gen
+      run: go install github.com/TinkerSoc/image-gen@latest
+
+    - name: Build website
+      run: make all
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Compress site into tarball
+        run: tar cavf github-pages.tar.gz public/*
+
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+
+
+
