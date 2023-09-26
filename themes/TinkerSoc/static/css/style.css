@@ -119,6 +119,10 @@ nav ul * svg {
         text-align: center;
     }
 
+    footer * .social img {
+        max-width: 1em;
+    }
+
     footer .content {
         max-width: 960px;
         margin: auto;
@@ -140,6 +144,33 @@ nav ul * svg {
     .joinus {
         float: right;
         margin-right: 30px;
+    }
+
+    .discord-menu {
+        float: right;
+    }
+
+    .discord-menu li {
+        display: inline-block;
+    }
+
+    .discord-menu li a,
+    .discord-menu li a:active,
+    .discord-menu li a:visited {
+        display: inline-block;
+        margin-top: 0 0 0 30px;
+        padding: 0.75em 1em 0.75em 1em;
+    }
+
+    .discord-menu img {
+        float: right;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-height: 1.5em;
+    }
+
+    .discord-menu-text {
+        display: none;
     }
 
     nav ul {
@@ -217,6 +248,10 @@ nav ul * svg {
         display: block;
     }
 
+    nav ul li a img {
+        max-height: 1.5em;
+    }
+
     nav ul div {
         width: 100%;
         margin: 0 0 -1em 0;
@@ -245,6 +280,12 @@ nav ul * svg {
 
     .sub-menu ul li a::before {
         content: "►"
+    }
+
+    .discord-menu-text {
+        display: inline;
+        margin-left: 1em;
+        vertical-align: top;
     }
 
     .hamburger {

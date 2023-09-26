@@ -2,6 +2,10 @@ baseurl = "https://www.tinkersoc.org"
 languageCode = "en-gb"
 title = "TinkerSoc Website"
 theme = "TinkerSoc"
+
+[params]
+    DiscordInvite = "https://discord.gg/DV9EhCc"
+
 [permalinks]
     blog = "/:year/:month/:title/"
 
