@@ -15,8 +15,8 @@ our [`image-gen`](https://github.com/TinkerSoc/image-gen)
 To install the latter two, do:
 
 ```
-go get -v github.com/spf13/hugo
-go get -v github.com/TinkerSoc/image-gen
+go install github.com/gohugoio/hugo@latest
+go install github.com/TinkerSoc/image-gen@latest
 ```
 
 ### Local serving
