@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-go@v4.1.0
 
     - name: Install Hugo
-      run: go install github.com/gohuguoio/hugo@latest
+      run: go install github.com/gohugoio/hugo@latest
 
     - name: Install image-gen
       run: go install github.com/TinkerSoc/image-gen@latest
