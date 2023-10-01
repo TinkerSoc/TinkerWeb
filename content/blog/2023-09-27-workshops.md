@@ -11,7 +11,7 @@ Welcome back!
 
 Remember we've moved to the Hackspace in Kennedy this term.
 
-For the TinkerSoc workshops, a worksheet has been prepared, you can access it [here](https://docs.google.com/document/d/1YzBj_CYyysWbxPEVzIAuCCROrfWD2kxdBpoiFGngu8o/edit).
+For the TinkerSoc workshops, a worksheet has been prepared, you can access it [here](https://drive.google.com/file/d/1e_mnXeEv4VZOmMrGaFHMhLB0Mk78D5Qt/view).
 
 We'll collect info like this in an easier to find part of the website in the coming weeks.
 <!--more-->
