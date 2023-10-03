@@ -6,16 +6,22 @@
         "url": null
     },
     {
-        "name" : "Josh Senior",
-        "comment" : "Vice President",
-        "image" : "committee/noimage.jpg",
+        "name" : "Tom Cooper",
+        "comment" : "Secretary",
+        "image" : "committee/tom.jpg",
         "url" : null
     },
     {
-        "name": "James Kavanagh",
+        "name": "Alan Osys",
         "comment": "Treasurer",
         "image": "committee/noimage.jpg",
         "url": null
+    },
+    {
+        "name": "Tom Jefferis",
+        "comment": "Social Secretary",
+        "image": "committee/noimage.jpg",
+        "url": null
     }
-
+    
 ]
