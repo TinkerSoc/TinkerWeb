@@ -14,10 +14,10 @@ menu:
 {{% picture "radio/FT991.jpg" %}}
 
 
-We also run a radio workshop every few weekends, allowing members to work on
+We run a radio workshop in Term 2, allowing members to work on
 obtaining their amateur radio licenses, and try and make contact with people
-across Europe with their callsigns! We currently have more than 10 members who
-have passed their Foundation exams and more than 5 have Intermediate Licenses.
+across Europe with their callsigns! We have had more than 10 members who
+have passed their Foundation exams and more than 5 who have Intermediate Licenses.
 
 We have a wide variety of radio equipment in the Shed including:
 
@@ -26,9 +26,9 @@ We have a wide variety of radio equipment in the Shed including:
 - A battery powered portable HF Setup
 - Handheld Radios
 
-Members are able to use these to further their interest in radio technology. We
-will also be hosting “fox hunts” where members use radio direction finding
-techniques to locate transmitters by building their own directional antenna.
+<!-- Members are able to use these to further their interest in radio technology. 
+We will also be hosting “fox hunts” where members use radio direction finding 
+techniques to locate transmitters by building their own directional antenna. -->
 
 # Repeaters
 
