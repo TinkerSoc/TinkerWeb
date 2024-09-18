@@ -9,11 +9,9 @@ menu:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-You can stay in touch via [Twitter](https://twitter.com/TinkerSoc),
-[Instagram](https://www.instagram.com/tinkersoc/) and [Email](mailto:committee@tinkersoc.org).
+You can stay in touch via [Instagram](https://www.instagram.com/tinkersoc/) and [Email](mailto:committee@tinkersoc.org).
 
 You can also contact the [President](mailto:josh@tinkersoc.org), [Vice-President](mailto:rachel@tinkersoc.org) and [Treasurer](mailto:james@tinkersoc.org) individually.
-
 
 ## Follow us ##
 
