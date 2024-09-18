@@ -19,6 +19,20 @@
 
     <h2>Previous Committee Members</h2>
 
+    <h3>2023 - 2024</h3>
+    {{ range $.Site.Data.committee_2023 }}
+    <figure>
+      <img src="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }}"
+          srcset="{{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-large.$2" .image }} 960w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-medium.$2" .image }} 480w,
+          {{.Site.BaseURL}}/gen/images/{{ replaceRE "(.*)\\.(\\w+)$" "$1-small.$2" .image }} 280w"
+          alt="Photo of {{.Name}}"/>
+        <figcaption>
+        {{ .comment }} - {{if .url }}<a href="{{.url}}">{{ .name }}</a>{{else}}{{.name}}{{end}}
+        </figcaption>
+    </figure>
+    {{ end }}
+
     <h3>2022 - 2023</h3>
     {{ range $.Site.Data.committee_2022 }}
     <figure>

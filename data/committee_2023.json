@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Rachel Muir",
+        "comment": "President",
+        "image" : "committee/rachel.jpg",
+        "url": null
+    },
+    {
+        "name" : "Josh Senior",
+        "comment" : "Vice President",
+        "image" : "committee/josh.jpg",
+        "url" : null
+    },
+    {
+        "name": "James Kavanagh",
+        "comment": "Treasurer",
+        "image": "committee/noimage.jpg",
+        "url": null
+    }
+
+]
