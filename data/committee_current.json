@@ -1,19 +1,31 @@
 [
     {
-        "name": "Rachel Muir",
-        "comment": "President",
-        "image" : "committee/rachel.jpg",
-        "url": null
-    },
-    {
         "name" : "Josh Senior",
-        "comment" : "Vice President",
+        "comment" : "President",
         "image" : "committee/josh.jpg",
         "url" : null
     },
     {
+        "name": "Rachel Muir",
+        "comment": "Vice President",
+        "image" : "committee/rachel.jpg",
+        "url": null
+    },
+    {
         "name": "James Kavanagh",
         "comment": "Treasurer",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Chloe Cooper",
+        "comment": "Events Coordinator",
+        "image": "committee/noimage.jpg",
+        "url": null
+    },
+    {
+        "name": "Jack Dale",
+        "comment": "Social Secretary",
         "image": "committee/noimage.jpg",
         "url": null
     }
