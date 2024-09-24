@@ -6,8 +6,6 @@ menu:
         parent: resources
 ---
 
-# Lesson Resources
-
 Here you will find all resoures used in the lessons.
 
 - [Lesson One](https://drive.google.com/file/d/1e_mnXeEv4VZOmMrGaFHMhLB0Mk78D5Qt/view)
